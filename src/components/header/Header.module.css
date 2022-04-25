@@ -1,0 +1,10 @@
+.header {
+    background-color: dodgerblue;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 100px;
+    align-items: center;
+}

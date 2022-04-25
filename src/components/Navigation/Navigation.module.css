@@ -1,0 +1,12 @@
+.nav {
+    border: 1px solid;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li + li {
+    margin-left: 10px;
+}

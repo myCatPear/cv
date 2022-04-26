@@ -3,3 +3,12 @@
     padding: 0 20px;
     margin: 0 auto;
 }
+
+.sectionTitle {
+    background-color: #DDD7D7;
+    display: inline-block;
+}
+
+section {
+    padding: 50px 0;
+}

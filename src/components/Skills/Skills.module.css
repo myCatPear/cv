@@ -1,0 +1,9 @@
+.skills {
+    background-color: #CAFEED;
+}
+
+.skills__wrapper {
+    padding: 10px 20px;
+    border:1px solid;
+    text-align: center;
+}

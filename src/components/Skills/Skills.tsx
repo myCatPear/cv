@@ -11,6 +11,8 @@ export const Skills = () => {
                     <h2 className={`${commonStyle.sectionTitle}`}>My skills</h2>
                     <div className={`${s.skills__list}`}>
                         <Skill/>
+                        <Skill/>
+                        <Skill/>
                     </div>
                 </div>
             </div>

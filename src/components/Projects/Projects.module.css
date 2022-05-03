@@ -1,18 +1,13 @@
-.skills {
-    background-color: #CAFEED;
-}
-
-.skills__wrapper {
+.projects__wrapper {
     padding: 10px 20px;
     border:1px solid;
     text-align: center;
 }
 
-.skills__list {
+.projects__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border:2px solid red;
     gap: 15px;
     margin-top: 10px;
 }

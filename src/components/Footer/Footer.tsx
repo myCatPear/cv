@@ -22,7 +22,7 @@ export const Footer = () => {
                             <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="footerPhoto"/>
                         </li>
                     </ul>
-                    <p>2022 all rights reserved</p>
+                    <p className={`${s.footer__text}`}>2022 all rights reserved</p>
                 </div>
             </div>
         </footer>

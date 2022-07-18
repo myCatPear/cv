@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Header.module.css'
+import s from './Header.module.scss'
 import {Navigation} from "../Navigation/Navigation";
-import commonStyle from '../common/CommonStyle.module.css'
+import commonStyle from '../common/CommonStyle.module.scss'
 
 export const Header = () => {
     return (

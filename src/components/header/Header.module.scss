@@ -1,0 +1,11 @@
+@import '../common/variables';
+
+.header {
+    background-color: $primary_color;
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        min-height: 100px;
+        align-items: center;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Projects.module.css'
-import commonStyle from '../common/CommonStyle.module.css'
+import commonStyle from '../common/CommonStyle.module.scss'
 import Project from "../Project/Project";
 
 const Projects = () => {
@@ -10,6 +10,7 @@ const Projects = () => {
                 <div className={`${s.projects__wrapper}`}>
                     <h2 className={`${commonStyle.sectionTitle}`}>My Projects</h2>
                     <div className={`${s.projects__list}`}>
+                        <Project/>
                         <Project/>
                         <Project/>
                     </div>

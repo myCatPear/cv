@@ -1,20 +1,18 @@
 import React from 'react';
-import commonStyle from '../common/CommonStyle.module.css'
-import s from './Main.module.css'
+import commonStyle from '../common/CommonStyle.module.scss'
+import s from './Main.module.scss'
+import photo from '../../assets/img/i.png'
 
 export const Main = () => {
     return (
         <section className={`${s.main}`}>
             <div className={`${commonStyle.container}`}>
                 <div className={`${s.main__wrapper}`}>
-                    <div className={`${s.main__text}`}>
-                        <span>Hi there!</span>
-                        <h1>My name's Denis Tavabilov.</h1>
-                        <span>I'm beginner frontend developer.</span>
+                    <div className={s.main__photo}>
+                        <img src={`${photo}`} alt="logo"/>
                     </div>
-                    <div>
-                        <img src="https://png.pngitem.com/pimgs/s/111-1114791_male-user-icon-hd-png-download.png" alt="logo"/>
-                    </div>
+                    <h1 className={s.main__author}>Denis Tavabilov</h1>
+                    <p className={s.main__text}>I'm frontend developer</p>
                 </div>
             </div>
         </section>

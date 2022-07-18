@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Skills.module.css'
-import commonStyle from '../common/CommonStyle.module.css'
+import commonStyle from '../common/CommonStyle.module.scss'
 import {Skill} from "../Skill/Skill";
 
 export const Skills = () => {

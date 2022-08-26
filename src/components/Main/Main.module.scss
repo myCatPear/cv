@@ -1,29 +1,78 @@
-@import '../common/variables';
+@import 'src/components/common/variables';
 
 .main {
-    height: 100vh;
-    background-color: $primary_color;
-    padding: 50px 0;
-    &__wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-     }
-    &__photo {
-        width: 300px;
-        height: 300px;
-    }
-    &__author {
-        font-family: 'Permanent Marker', cursive;
-        font-size: 36px;
-        color:$accent_color;
-    }
-    &__text {
-        font-size: 24px;
-        color:$light_color;
-    }
+  height: 90vh;
+  background-color: $primary_color;
+  padding: 50px 0;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  &__photo {
+    width: 300px;
+    height: 300px;
+  }
+
+  &__author {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: $accent_color;
+    margin-top: 20px;
+  }
+
+  &__text {
+    font-size: 32px;
+    color: $light_color;
+    margin-top: 20px;
+  }
+
+  &__icon {
+    fill: #fff;
+    width: 32px;
+    height: 32px;
+  }
+
+  &__icon :hover {
+    fill: yellow;
+  }
+
+  &__socialMedia {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+  }
+
+  &__line{
+    display: inline-block;
+    width: 3px;
+    height: 190px;
+    background-color: $light_color;
+    margin-bottom: 10px;
+  }
 }
 
+@media screen and (max-width: 600px) {
+  .main {
+    &__socialMedia {
+      position: relative;
+      flex-direction: row;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    &__line {
+      display: none;
+    }
+  }
+
+  
+}
 
 

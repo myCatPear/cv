@@ -1,17 +1,21 @@
-import React from 'react';
-import s from './Skill.module.css'
-import commonStyle from '../common/CommonStyle.module.scss'
+import React, { FunctionComponent, SVGProps } from 'react';
+import s from './Skill.module.scss'
 
-export const Skill = () => {
+type SkillPropsType = {
+    title:string
+    skillDescription:string[]
+    image:string
+}
+
+export const Skill:React.FC<SkillPropsType> = ({image,title,skillDescription}) => {
     return (
         <div className={`${s.skill__wrapper}`}>
-            <img src="https://limeiraplasticos.com.br/imagem/icones/cores/4.png" alt="skillPhoto"/>
-            <h4>React</h4>
+            <img className={s.skill__img} src={image} alt="skillPhoto"/>
+            <h4 className={s.skill__title}>{title}</h4>
             <ul className={`${s.skill__list}`}>
-                <li className={`${s.skill__listItem}`}>Hooks</li>
-                <li>Virtual DOM Virtual DOM Virtual DOM Virtual DOM Virtual DOM</li>
-                <li>Props Props Props Props Props</li>
-                <li>Callback</li>
+                {skillDescription.map(d => {
+                    return <li className={`${s.skill__listItem}`}>{d}</li>
+                })}
             </ul>
         </div>
     );

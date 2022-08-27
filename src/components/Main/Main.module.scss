@@ -1,7 +1,7 @@
 @import 'src/components/common/variables';
 
 .main {
-  height: 90vh;
+  height: 100vh;
   background-color: $primary_color;
   padding: 50px 0;
 
@@ -14,8 +14,8 @@
   }
 
   &__photo {
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
   }
 
   &__author {
@@ -65,14 +65,23 @@
       position: relative;
       flex-direction: row;
       gap: 10px;
-      margin-top: 20px;
+      margin-top: 50px;
     }
     &__line {
       display: none;
     }
   }
+}
 
-  
+@media screen and (max-width: 460px) {
+  .main {
+   &__author {
+     font-size: 35px;
+   }
+    &__text {
+      font-size: 20px;
+    }
+  }
 }
 
 

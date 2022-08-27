@@ -1,10 +1,10 @@
+@import "../common/variables";
+
 .skills {
-    background-color: #CAFEED;
+    background-color:$secondary_color;
 }
 
 .skills__wrapper {
-    padding: 10px 20px;
-    border:1px solid;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border:2px solid red;
     gap: 15px;
     margin-top: 10px;
+
 }

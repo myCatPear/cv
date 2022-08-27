@@ -1,0 +1,54 @@
+@import "src/components/common/variables";
+
+.skill {
+  &__wrapper {
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: calc(100% / 3 - 10px);
+  }
+  &__img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  &__title {
+    color: $light_color;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    list-style: none;
+    text-align: center;
+  }
+
+  &__listItem {
+    color: $light_color;
+  }
+
+  &__listItem:before {
+    content: "\2022";
+    color: $accent_color;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill {
+    &__wrapper {
+      width: calc(100% / 2 - 10px);
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skill {
+    &__wrapper {
+      width: calc(100% / 1 - 10px);
+    }
+  }
+}

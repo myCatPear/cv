@@ -13,7 +13,7 @@ export const Main = () => {
             <div className={`${commonStyle.container}`}>
                 <div className={`${s.main__wrapper}`}>
                     <div className={s.main__photo}>
-                        <img src={`${photo}`} alt="logo"/>
+                        <img  src={`${photo}`} alt="logo"/>
                     </div>
                     <h1 className={s.main__author}>Denis Tavabilov</h1>
                     <p className={s.main__text}>I'm a frontend developer</p>

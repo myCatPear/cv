@@ -6,6 +6,7 @@ import {ReactComponent as LinkedIn} from 'assets/img/socialMedia/linkedin.svg'
 import {ReactComponent as Github} from 'assets/img/socialMedia/github.svg'
 import {ReactComponent as Telegram} from 'assets/img/socialMedia/telegram.svg'
 import {ReactComponent as Codewars} from 'assets/img/socialMedia/codewars.svg'
+import {ReactComponent as CV} from 'assets/img/socialMedia/cv.svg'
 
 export const Main = () => {
     return (
@@ -30,6 +31,9 @@ export const Main = () => {
                         </a>
                         <a href="$">
                             <Codewars className={s.main__icon}/>
+                        </a>
+                        <a href="$">
+                            <CV className={s.main__icon}/>
                         </a>
                     </div>
                 </div>

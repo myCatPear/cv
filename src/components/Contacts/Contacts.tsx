@@ -22,6 +22,11 @@ const Contacts = () => {
                                     </a>
                                 </li>
                                 <li className={s.inTouch__item}>
+                                    <a className={s.inTouch__link} href="#">
+                                        Telegram
+                                    </a>
+                                </li>
+                                <li className={s.inTouch__item}>
                                     <a className={s.inTouch__link} href="$">
                                         Download CV
                                     </a>
@@ -32,17 +37,14 @@ const Contacts = () => {
                             <form className={`${s.form}`} action="/action">
                                 <label className={s.form__label}>
                                     Name
-                                    <br/>
                                     <input className={s.form__input} type="text" placeholder="Write your name here"/>
                                 </label>
                                 <label className={s.form__label}>
                                     Email
-                                    <br/>
                                     <input className={s.form__input} type="email" placeholder="Write your email here"/>
                                 </label>
                                 <label className={s.form__label}>
                                     Message
-                                    <br/>
                                     <textarea className={s.form__textarea}></textarea>
                                 </label>
                                 <input className={s.form__button} type="submit" value={'Send message'}/>

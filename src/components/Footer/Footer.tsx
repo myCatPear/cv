@@ -1,28 +1,35 @@
 import React from 'react';
-import s from "./Footer.module.css";
+import s from "./Footer.module.scss";
 import commonStyle from "../common/CommonStyle.module.scss";
+import {ReactComponent as LinkedIn} from "../../assets/img/socialMedia/linkedin.svg";
+import {ReactComponent as Github} from "../../assets/img/socialMedia/github.svg";
+import {ReactComponent as Telegram} from "../../assets/img/socialMedia/telegram.svg";
+import {ReactComponent as Codewars} from "../../assets/img/socialMedia/codewars.svg";
+import {ReactComponent as CV} from "../../assets/img/socialMedia/cv.svg";
 
 export const Footer = () => {
     return (
         <footer className={`${s.footer}`}>
             <div className={`${commonStyle.container}`}>
                 <div className={`${s.footer__wrapper}`}>
-                    <h2 className={`${commonStyle.sectionTitle}`}>Denis Tavabilov</h2>
-                    <ul className={`${s.footer__list}`}>
-                        <li className={`${s.footer__item}`}>
-                            <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="footerPhoto"/>
-                        </li>
-                        <li className={`${s.footer__item}`}>
-                            <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="footerPhoto"/>
-                        </li>
-                        <li className={`${s.footer__item}`}>
-                            <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="footerPhoto"/>
-                        </li>
-                        <li className={`${s.footer__item}`}>
-                            <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="footerPhoto"/>
-                        </li>
-                    </ul>
-                    <p className={`${s.footer__text}`}>2022 all rights reserved</p>
+                    <div className={s.footer__socialMedia}>
+                        <a href={'$'}>
+                            <LinkedIn className={s.footer__icon}/>
+                        </a>
+                        <a href="#">
+                            <Github className={s.footer__icon}/>
+                        </a>
+                        <a href="$">
+                            <Telegram className={s.footer__icon}/>
+                        </a>
+                        <a href="$">
+                            <Codewars className={s.footer__icon}/>
+                        </a>
+                        <a href="$">
+                            <CV className={s.footer__icon}/>
+                        </a>
+                    </div>
+                    <h2 className={`${s.footer__title}`}>Denis Tavabilov</h2>
                 </div>
             </div>
         </footer>

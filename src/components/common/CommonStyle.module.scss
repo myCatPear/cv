@@ -14,13 +14,12 @@
 }
 
 .sectionTitle:after {
+    display: inline-block;
     content: "";
-    position: absolute;
-    top: 50%;
-    right: -100%;
-    height: 3px;
-    width: 70px;
-    background-color: $light_color;
+    border-top: .3rem solid $light_color;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-5px);
 }
 
 section {

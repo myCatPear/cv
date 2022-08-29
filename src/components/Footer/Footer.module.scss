@@ -1,0 +1,29 @@
+@import "src/components/common/variables";
+.footer {
+    background-color: $accent_color;
+    &__wrapper {
+        padding: 10px 20px;
+    }
+    &__icon {
+        fill: $primary_color;
+        width: 32px;
+        height: 32px;
+    }
+    &__icon:hover {
+        fill:$light_color;
+    }
+    &__title {
+        color:$primary_color;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 29px;
+        text-align: center;
+    }
+    &__socialMedia {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+
+

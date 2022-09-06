@@ -1,0 +1,15 @@
+@import "src/components/common/variables";
+.projects {
+    background-color: $primary_color;
+    &__wrapper {
+        text-align: center;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+}

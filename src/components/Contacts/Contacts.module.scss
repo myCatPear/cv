@@ -1,7 +1,7 @@
 @import "src/components/common/variables";
 
 .contacts {
-  background-color: $primary_color;
+  background-color: $secondary_color;
 
   &__wrapper {
     padding: 10px 10px;
@@ -34,7 +34,7 @@
     border-radius: 10px;
     border: none;
     margin-bottom: 10px;
-    background-color: $secondary_color;
+    background-color: $primary_color;
     color:$light_color;
     font-size: 14px;
     padding: 5px 10px;
@@ -44,7 +44,7 @@
     height: 100px;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-color: $secondary_color;
+    background-color: $primary_color;
     border: none;
     color:$light_color;
     font-size: 15px;
@@ -54,9 +54,10 @@
     width: 128px;
     height: 33px;
     border-radius: 10px;
-    background-color: $accent_color;
+    background-color: $primary_color;
     padding: 6px 12px;
     align-self: flex-end;
+    color:$light_color;
   }
 }
 
@@ -69,7 +70,7 @@
     justify-content: flex-start;
   }
   &__item {
-    background-color: $secondary_color;
+    background-color: $primary_color;
     margin: 10px 0px;
     padding: 10px 20px;
     border-radius: 10px;

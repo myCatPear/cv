@@ -1,0 +1,48 @@
+@import "src/components/common/variables";
+
+.project {
+    &__wrapper {
+        max-width: 400px;
+    }
+    &__mediaLink {
+        position: relative;
+    }
+    &__link {
+        padding: 5px 10px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        background-color: #DDD7D7;
+    }
+    &__description {
+        background-color: #FFDEE0;
+    }
+    &__name {
+        background-color: $accent_color;
+        color:$light_color;
+        padding: 5px 10px;
+    }
+    &__tools {
+        background-color: $secondary_color;
+        color:$light_color;
+        list-style-position: inside;
+        padding: 5px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        text-align: left;
+    }
+    &__tool {
+        width: calc(100% / 3 - 4px);
+    }
+    @media screen and (max-width: 450px) {
+        &__tool {
+            width: calc(100% / 2 - 4px);
+        }
+    }
+}
+
+
+

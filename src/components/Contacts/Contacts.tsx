@@ -37,11 +37,11 @@ const Contacts = () => {
                             <form className={`${s.form}`} action="/action">
                                 <label className={s.form__label}>
                                     Name
-                                    <input className={s.form__input} type="text" placeholder="Write your name here"/>
+                                    <input name="name" className={s.form__input} type="text" placeholder="Write your name here" autoComplete='name'/>
                                 </label>
                                 <label className={s.form__label}>
                                     Email
-                                    <input className={s.form__input} type="email" placeholder="Write your email here"/>
+                                    <input className={s.form__input} name="email" type="email" autoComplete="email" placeholder="Write your email here"/>
                                 </label>
                                 <label className={s.form__label}>
                                     Message

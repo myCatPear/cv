@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.cae9cc08.css",
-    "main.js": "/cv/static/js/main.ace997b2.js",
+    "main.css": "/cv/static/css/main.4303b6f7.css",
+    "main.js": "/cv/static/js/main.b6e6f0ef.js",
     "static/js/787.e8871c4f.chunk.js": "/cv/static/js/787.e8871c4f.chunk.js",
+    "static/media/i.png": "/cv/static/media/i.faf1b7b79085b4a3b91f.png",
+    "static/media/todoAPP.png": "/cv/static/media/todoAPP.4f137ee8782da7523d82.png",
+    "static/media/codewars.svg": "/cv/static/media/codewars.89fb91eacea6deaf6171c02bea9851ef.svg",
+    "static/media/react.svg": "/cv/static/media/react.a88561b19d0586bab0f621874fb8919c.svg",
+    "static/media/cv.svg": "/cv/static/media/cv.0f511e6120eb2d94bef74c1b279141a9.svg",
+    "static/media/css.svg": "/cv/static/media/css.de5f92294e0ec38fd2451dbcc71d8ea9.svg",
+    "static/media/ts.svg": "/cv/static/media/ts.591ee15dfec19b70a62affe5d753707d.svg",
+    "static/media/redux.svg": "/cv/static/media/redux.8e117b9e5d5ecdcb11f404c1c56ffcb5.svg",
+    "static/media/js.svg": "/cv/static/media/js.d03b352fcebbee159adb793d5b333bf9.svg",
+    "static/media/github.svg": "/cv/static/media/github.a7243862e4e6bde4e13999dd018f5bba.svg",
+    "static/media/api.svg": "/cv/static/media/api.69425e6a8c8f494344ad4393eed76837.svg",
+    "static/media/telegram.svg": "/cv/static/media/telegram.094f2f28a29568480c44d28949db25b1.svg",
+    "static/media/linkedin.svg": "/cv/static/media/linkedin.eba97d32749a63467491d63988d821f3.svg",
     "index.html": "/cv/index.html",
-    "main.cae9cc08.css.map": "/cv/static/css/main.cae9cc08.css.map",
-    "main.ace997b2.js.map": "/cv/static/js/main.ace997b2.js.map",
+    "main.4303b6f7.css.map": "/cv/static/css/main.4303b6f7.css.map",
+    "main.b6e6f0ef.js.map": "/cv/static/js/main.b6e6f0ef.js.map",
     "787.e8871c4f.chunk.js.map": "/cv/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae9cc08.css",
-    "static/js/main.ace997b2.js"
+    "static/css/main.4303b6f7.css",
+    "static/js/main.b6e6f0ef.js"
   ]
 }

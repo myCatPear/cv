@@ -6,11 +6,13 @@ import {ReactComponent as Github} from "../../assets/img/socialMedia/github.svg"
 import {ReactComponent as Telegram} from "../../assets/img/socialMedia/telegram.svg";
 import {ReactComponent as Codewars} from "../../assets/img/socialMedia/codewars.svg";
 import {ReactComponent as CV} from "../../assets/img/socialMedia/cv.svg";
+import {Fade} from "react-awesome-reveal";
 
 export const Footer = () => {
     return (
         <footer className={`${s.footer}`}>
             <div className={`${commonStyle.container}`}>
+                <Fade delay={100}>
                 <div className={`${s.footer__wrapper}`}>
                     <div className={s.footer__socialMedia}>
                         <a href={'$'}>
@@ -31,6 +33,7 @@ export const Footer = () => {
                     </div>
                     <h2 className={`${s.footer__title}`}>Denis Tavabilov</h2>
                 </div>
+                </Fade>
             </div>
         </footer>
     );

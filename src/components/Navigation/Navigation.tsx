@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import s from './Navigation.module.scss'
 
 export const Navigation = () => {
@@ -12,16 +13,19 @@ export const Navigation = () => {
             <nav className={`${s.nav}`}>
                 <ul className={`${s.menu} ${isClickBurger ? s.right : ""}`}>
                     <li className={s.menu__item}>
-                        <a href="#" className={s.menu__link} onClick={onLinkClick}>Main</a>
+                        <Link activeClass="active" to="skills" spy={true} smooth={true} offset={20} duration={500} className={s.menu__link} onClick={onLinkClick}>
+                            Skills
+                        </Link>
                     </li>
                     <li className={s.menu__item}>
-                        <a href="#" className={s.menu__link} onClick={onLinkClick}>Skills</a>
+                        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={20} duration={500} className={s.menu__link} onClick={onLinkClick}>
+                            Projects
+                        </Link>
                     </li>
                     <li className={s.menu__item}>
-                        <a href="#" className={s.menu__link} onClick={onLinkClick}>Projects</a>
-                    </li>
-                    <li className={s.menu__item}>
-                        <a href="#" className={s.menu__link} onClick={onLinkClick}>Contacts</a>
+                        <Link activeClass="active" to="contacts" spy={true} smooth={true} offset={20} duration={500} className={s.menu__link} onClick={onLinkClick}>
+                            Contacts
+                        </Link>
                     </li>
                 </ul>
             </nav>

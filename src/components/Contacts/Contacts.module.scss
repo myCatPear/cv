@@ -77,6 +77,10 @@
     margin: 10px 0px;
     padding: 10px 20px;
     border-radius: 10px;
+    transition: 0.5s all;
+  }
+  &__item:hover {
+    background-color: $accent_color;
   }
   &__link {
     color:$light_color;

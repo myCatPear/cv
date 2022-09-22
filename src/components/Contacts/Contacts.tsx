@@ -1,11 +1,13 @@
 import React from 'react';
 import s from "./Contacts.module.scss";
 import commonStyle from "../common/CommonStyle.module.scss";
+import {Fade} from "react-awesome-reveal";
 
 const Contacts = () => {
     return (
-        <section className={`${s.contacts}`}>
+        <section id="contacts" className={`${s.contacts}`}>
             <div className={`${commonStyle.container}`}>
+                <Fade delay={100}>
                 <div className={`${s.contacts__wrapper}`}>
                     <h2 className={`${commonStyle.sectionTitle}`}>Contacts</h2>
                     <div className={s.contacts__info}>
@@ -52,6 +54,7 @@ const Contacts = () => {
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
         </section>
     );

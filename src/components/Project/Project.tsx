@@ -24,7 +24,7 @@ const Project: React.FC<ProjectPropsType> = (props) => {
             <div className={`${s.project__description}`}>
                 <h4 className={`${s.project__name}`}>{title}</h4>
                 <ul className={s.project__tools}>
-                    {tools.map(tool => <li className={s.project__tool}>{tool}</li>)}
+                    {tools.map((tool,index) => <li className={s.project__tool} key={index}>{tool}</li>)}
                 </ul>
             </div>
         </div>

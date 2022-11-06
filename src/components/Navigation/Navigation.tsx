@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link} from 'react-scroll';
 import s from './Navigation.module.scss'
 
 export const Navigation = () => {

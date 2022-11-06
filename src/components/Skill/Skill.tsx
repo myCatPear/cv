@@ -13,8 +13,8 @@ export const Skill:React.FC<SkillPropsType> = ({image,title,skillDescription}) =
             <img className={s.skill__img} src={image} alt="skillPhoto"/>
             <h4 className={s.skill__title}>{title}</h4>
             <ul className={`${s.skill__list}`}>
-                {skillDescription.map(d => {
-                    return <li className={`${s.skill__listItem}`}>{d}</li>
+                {skillDescription.map((d,index) => {
+                    return <li className={`${s.skill__listItem}`} key={index}>{d}</li>
                 })}
             </ul>
         </div>

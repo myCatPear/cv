@@ -10,7 +10,6 @@ const Particle = () => {
     }, []);
 
     const particlesLoaded = useCallback(async (container: any) => {
-        await console.log(container);
     }, []);
    const options:any = useMemo(() => {
        return {

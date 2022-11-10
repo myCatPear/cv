@@ -36,19 +36,19 @@ export const Main = () => {
                         />
                         <div className={s.main__socialMedia}>
                             <span className={s.main__line}></span>
-                            <a href={'$'}>
+                            <a href={'https://www.linkedin.com/in/denis-tavabilov-773765232/'} target="_blank">
                                 <LinkedIn className={s.main__icon}/>
                             </a>
-                            <a href="#">
+                            <a href="https://github.com/myCatPear" target="_blank">
                                 <Github className={s.main__icon}/>
                             </a>
-                            <a href="$">
+                            <a href="https://telegram.me/smeninick" target="_blank">
                                 <Telegram className={s.main__icon}/>
                             </a>
-                            <a href="$">
+                            <a href="https://www.codewars.com/users/Smeninick"  target="_blank">
                                 <Codewars className={s.main__icon}/>
                             </a>
-                            <a href="$">
+                            <a href="$"  target="_blank">
                                 <CV className={s.main__icon}/>
                             </a>
                         </div>

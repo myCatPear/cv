@@ -3,13 +3,12 @@ import s from './Project.module.scss'
 
 type ProjectPropsType = {
     title: string,
-    tools: string[],
     image: string,
     src:string
 }
 
 const Project: React.FC<ProjectPropsType> = (props) => {
-    const {image, title, tools,src} = props
+    const {image, title,src} = props
 
     const onImgClick = () => {
 
@@ -22,10 +21,7 @@ const Project: React.FC<ProjectPropsType> = (props) => {
                 <a className={`${s.project__link}`} href={src} target={"_blank"}>Watch </a>
             </div>
             <div className={`${s.project__description}`}>
-                <h4 className={`${s.project__name}`}>{title}</h4>
-                <ul className={s.project__tools}>
-                    {tools.map((tool,index) => <li className={s.project__tool} key={index}>{tool}</li>)}
-                </ul>
+                <a className={`${s.project__name}`}  href={src} target={"_blank"}>{title}</a>
             </div>
         </div>
     );

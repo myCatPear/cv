@@ -50,22 +50,22 @@ const Contacts = () => {
               <div className={s.inTouch}>
                 <ul className={s.inTouch__list}>
                   <li className={s.inTouch__item}>
-                    <a className={s.inTouch__link} href="tel:89501994914">
+                    <a className={s.inTouch__link} href="tel:89501994914" target="_blank">
                       +7-950-199-49-14
                     </a>
                   </li>
                   <li className={s.inTouch__item}>
-                    <a className={s.inTouch__link} href="mailto:dagger1233@gmail.com">
+                    <a className={s.inTouch__link} href="mailto:dagger1233@gmail.com" target="_blank">
                       dagger1233@gmail.com
                     </a>
                   </li>
                   <li className={s.inTouch__item}>
-                    <a className={s.inTouch__link} href="#">
+                    <a className={s.inTouch__link} href="https://telegram.me/smeninick" target="_blank">
                       Telegram
                     </a>
                   </li>
                   <li className={s.inTouch__item}>
-                    <a className={s.inTouch__link} href="$">
+                    <a className={s.inTouch__link} href="$" target="_blank">
                       Download CV
                     </a>
                   </li>

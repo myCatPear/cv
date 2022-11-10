@@ -43,7 +43,7 @@ export const Skills = () => {
                             />
                             <Skill
                                 title={'REDUX'}
-                                skillDescription={['Redux-Thunk', 'FLUX', 'Reducers', 'Action']}
+                                skillDescription={['FLUX', 'Thunk', 'RTK']}
                                 image={REDUX}
                             />
                             <Skill

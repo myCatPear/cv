@@ -48,7 +48,7 @@ export const Main = () => {
                             <a href="https://www.codewars.com/users/Smeninick"  target="_blank">
                                 <Codewars className={s.main__icon}/>
                             </a>
-                            <a href="$"  target="_blank">
+                            <a href="https://drive.google.com/file/d/1pM4d2RMQwljjj22j7ANaQ7BYPXLGECyR/view"  target="_blank">
                                 <CV className={s.main__icon}/>
                             </a>
                         </div>
